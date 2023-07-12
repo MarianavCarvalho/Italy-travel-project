@@ -7,8 +7,21 @@ body{
     margin: 0 auto;
 }
 
-header{
+section{
     max-width: 1200px;
+    margin:0 auto;
+    padding: 100px;
+}
+ 
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 64px;
+   
+}
+
+header{
+    max-width: 1400px;
     margin: 0 auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/italy-positano.png");
     background-position: center;
@@ -40,6 +53,7 @@ header h3{
     letter-spacing: 5px;
     margin: 0;
 }
+
 header a{
 font-size: 14px;
 font-weight: 700;
@@ -55,7 +69,44 @@ text-decoration: none;
 color: #272044;
 }
 
-@media (max-width: 900px){
+footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../images/italy-footer-1536x683.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+footer h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+footer p{
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+    line-height: 24px;
+    
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a{
+color: white;
+opacity: 0.7;
+}
+
+
+
+@media (max-width: 960px){
     header{
         padding: 60px 0;
     }
