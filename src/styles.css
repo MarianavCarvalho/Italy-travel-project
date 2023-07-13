@@ -36,6 +36,23 @@ width: 100%;
 aspect-ratio: 2/1.5;
 }
 
+.box-photo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.photo{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.photo img{
+    width: 300px;
+    height: 300px;
+   
+}
+
 .grid-2-colums{
 grid-template-columns: 1fr 1fr;
 }
