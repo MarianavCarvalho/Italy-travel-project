@@ -1,9 +1,10 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background: #f8f8f8;
 }
 
 .container{
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -101,7 +102,7 @@ grid-template-columns: 1fr 1fr;
 }
 
 header{
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/italy-positano.png");
     background-position: center;
