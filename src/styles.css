@@ -29,6 +29,7 @@ section.secondary {
 .img-responsive{
     max-width: 100%;
     display: block;
+    margin: 0 auto;
 }
 
 .embed{
@@ -39,19 +40,16 @@ aspect-ratio: 2/1.5;
 .box-photo{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 30px;
+    margin-top: 20px;
 }
+
 .photo{
  display: flex;
  align-items: center;
  justify-content: center;
 }
 
-.photo img{
-    width: 300px;
-    height: 300px;
-   
-}
 
 .grid-2-colums{
 grid-template-columns: 1fr 1fr;
@@ -63,7 +61,6 @@ grid-template-columns: 1fr 1fr;
 .grid-3-cards {
     grid-template-columns: 1fr 1fr 1fr;
 }
-
 
 .card {
     background: white;
@@ -246,7 +243,7 @@ opacity: 0.7;
        line-height: 1;
    }
 
-   .grid {
+   .grid, .box-photo {
        grid-template-columns: 1fr;
        grid-gap: 32px;
    }
@@ -261,4 +258,6 @@ opacity: 0.7;
    .embed{
     aspect-ratio: 16/9;
    }
+
+
 }
